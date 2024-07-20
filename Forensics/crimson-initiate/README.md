@@ -15,7 +15,7 @@ First lets run a command to find out if Crimson is really on the computer
 
 I found the command for this was Net user
 
-![[Users crimson.png]]
+![Users crimson.png](Users%20crimson.png)
 
 I also noticed that we have full admin rights on this account.
 
@@ -39,7 +39,7 @@ token::elevate
 
 lsadump::sam
 
-![[Crimson hash.png]]
+![Crimson hash.png](Crimson%20hash.png)
 
 Once I found the HASH NTLM i just went to crack station and pasted it in to find the password.
 

@@ -18,7 +18,7 @@ WARNING - This challenge involves malware. Do not run this on your personal mach
 
 # Method:
 
-![[Keylogger.png]]
+![Keylogger.png](Keylogger.png)
 
 The powershell file that was found in the other challenge of save zig move zig now comes into play.
 

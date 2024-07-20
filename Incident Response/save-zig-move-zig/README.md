@@ -26,7 +26,7 @@ This showed a file in the c\programs data which was a powershell file called mov
 
 There was nothing really of note here within the powershell file but the name of it matches the description.
 
-![[Powershell output.png]]
+![Powershell output.png](Powershell%20output.png)
 At this point i noticed that a powershell script was being run on a timer.
 
 So i took a look at the task scheduler to find if there was anything running it.

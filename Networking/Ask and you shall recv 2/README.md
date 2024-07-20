@@ -22,7 +22,7 @@ Then using the syntax i tried to login to the ssh server
 
 ssh -i p2.private.key Ladybird@0.cloud.chals.io -p 21986
 
-![[Too open.png]]
+![Too open.png](Too%20open.png)
 
 To fix this issue i had to make the private key read only.
 
@@ -30,5 +30,5 @@ This required chmod 6000 "filename"
 
 Then i tried again and found the flag
 
-![[Flag obtained.png]]
+![Flag obtained.png](Flag%20obtained.png)
 flag: leveleffect{private_keys_are_private_for_a_reason}

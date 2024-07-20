@@ -28,4 +28,4 @@ I tested it and it was the flag.
 
 Flag = leveleffect{MyApp.exe}
 
-![[Myapp zig.png]]
+![Myapp zig.png](Myapp%20zig.png)

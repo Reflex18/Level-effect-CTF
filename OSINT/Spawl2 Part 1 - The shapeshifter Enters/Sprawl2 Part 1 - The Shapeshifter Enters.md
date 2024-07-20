@@ -14,7 +14,7 @@ Submit
 
 # Method:
 
-![[Sprawl 2 program.png]]
+![Sprawl 2 program.png](Sprawl%202%20program.png)
 
 
 The sprawl 2 exe when launched displays the following command prompt asking for a login.
@@ -35,7 +35,7 @@ None of these so far have been correct.
 
 Using strings on the exe managed to final the following information.
 
-![[Strings spawl part 1.png]]
+![Strings spawl part 1.png](Strings%20spawl%20part%201.png)
 
 Strings provided a few flags for it:
 

@@ -10,4 +10,4 @@ flag was leveleffect{CVE-2023-20198}
 
 nice and easy
 
-![[pardon%20the%20intrusion%20gpt.png]]
+![pardon%20the%20intrusion%20gpt.png](pardon%2520the%2520intrusion%2520gpt.png)

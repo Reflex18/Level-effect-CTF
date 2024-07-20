@@ -20,6 +20,6 @@ The value name of the key then decoded into the flag.
 
 Also of note the value data is base64 encoded for the command "whoami"
 
-![[Autoruns 3.png]]
+![Autoruns 3.png](Autoruns%203.png)
 
 Flag = leveleffect{its_becoming_self_aware}
