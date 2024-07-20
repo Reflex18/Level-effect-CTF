@@ -10,4 +10,4 @@ Very easy to obtain, just pasted it into chat gpt.
 
 Flag = Uroburos
 
-![Got%20my%20tail%20gpt.png](Got%2520my%2520tail%2520gpt.png)
+![Got%20my%20tail%20gpt.png](Got%20my%20tail%20gpt.png)

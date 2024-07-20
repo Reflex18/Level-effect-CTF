@@ -17,4 +17,4 @@ This lead to understanding that it is an AES encryption, with this knowledge i u
 Flag = leveleffect{keys_are_meant_to_be_kept}
 
 
-![AES%20Decrypt.png](AES%2520Decrypt.png)
+![AES%20Decrypt.png](AES%20Decrypt.png)

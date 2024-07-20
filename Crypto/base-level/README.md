@@ -11,7 +11,7 @@ https://gchq.github.io/CyberChef/
 
 Then i pasted in the string and used the magic symbol to check what cyber chef recommends.
 
-![Cyber%20chef#20magic%20symbol.png](Cyber%2520chef%2320magic%2520symbol.png)
+![Cyber%20chef#20magic%20symbol.png](Cyber%20chef%20magic%20symbol.png)
 
 
 This converted from base 64.

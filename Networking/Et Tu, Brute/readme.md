@@ -45,7 +45,7 @@ leveleffect{dictionary_attack}
 
 After much effort trying to brute force the flag i instead just looked at the packets themselves.
 
-![The flag.png](The%20flag.png)
+![Th%20flag.png](The%20flag.png)
 
 This is what the flag looks like in packet 2739
 

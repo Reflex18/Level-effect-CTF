@@ -20,7 +20,7 @@ Then i attempted to ssh in using the following syntax to see what happens
 
 ssh -i p3.private.key tunneler@0.cloud.chals.io -p 27141
 
-![Not quite.png](Not%20quite.png)
+![No%20quite.png](Not%20quite.png)
 
 I got the following information from it which prompted some googling.
 
@@ -36,4 +36,4 @@ http://localhost:8888
 
 leveleffect{attack_from_within}
 
-![Tunnel made.png](Tunnel%20made.png)
+![Tunne%20made.png](Tunnel%20made.png)
