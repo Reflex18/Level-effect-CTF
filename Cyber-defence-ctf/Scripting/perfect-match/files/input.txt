@@ -1,0 +1,93 @@
+-- IP ADDRESSES ARE ARBITRARY, DO NOT VISIT THEM --
+
+> Hey operations, here are the logs you requested. For further questions you can reach me on my mobile at 234.567.8901.
+
+
+# access logs
+
+209.214.96.52 - - [12/Mar/2019:15:59:22 +0000] "GET /favicon.ico HTTP/1.1" 404 537 "http://ec2-52-11-28-254.us-east-1.compute.amazonaws.com/site.html" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.1234.134 Safari/537.36"
+56.170.11.104 - - [12/Mar/2019:16:01:02 +0000] "HEAD / HTTP/1.1" 200 254 "-" "curl/7.79.1"
+104.72.10.201 - - [12/Mar/2019:16:46:11 +0000] "GET /index.html HTTP/1.0" 404 502 "http://google.com/search?q=foo+bar" "bf109-host.foo.bar.2017"
+104.72.10.201 - - [12/Mar/2019:16:46:11 +0000] "GET / HTTP/1.0" 200 11723 "-" "bf109-host.foo.bar.2017"
+104.72.10.201 - - [12/Mar/2019:16:46:11 +0000] "GET / HTTP/1.1" 200 11710 "http://google.com/search?q=foo+bar" "bf109-host.foo.bar.2017"
+104.72.10.201 - - [12/Mar/2019:16:46:11 +0000] "GET /Diagnostics.asp HTTP/1.0" 404 496 "-" "bf109-host.foo.bar.2017"
+104.72.10.201 - - [12/Mar/2019:16:46:11 +0000] "GET / HTTP/1.0" 200 11783 "-" "bf109-host.foo.bar.2017"
+104.72.10.201 - - [12/Mar/2019:16:46:11 +0000] "GET / HTTP/1.0" 200 11783 "-" "bf109-host.foo.bar.2017"
+104.72.10.201 - - [12/Mar/2019:16:46:11 +0000] "GET / HTTP/1.0" 200 11783 "-" "bf109-host.foo.bar.2017"
+84.14.112.22 - - [12/Mar/2019:16:46:24 +0000] "GET /telefono HTTP/1.1" 400 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+10.10.10.10 - - [12/Mar/2019:16:46:29 +0000] "HEAD / HTTP/1.1" 200 254 "-" "product code 123.45.678.2 - contact user@foo.bar"
+10.10.10.10 - - [12/Mar/2019:16:46:30 +0000] "GET / HTTP/1.1" 200 1198 "-" "check the date 2024.07.19 on our website."
+204.140.24.19 - - [12/Mar/2019:16:46:46 +0000] "GET / HTTP/1.1" 200 1292 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.2; rv:16.0) Gecko/20100101 Firefox/16.0"
+204.140.24.19 - - [12/Mar/2019:16:46:46 +0000] "GET /icons/ubuntu-logo.png HTTP/1.1" 200 3688 "http://ec2-52-22-123-132.us-east-1.compute.amazonaws.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.2; rv:16.0) Gecko/20100101 Firefox/16.0"
+204.140.24.19 - - [12/Mar/2019:16:46:46 +0000] "GET /favicon.ico HTTP/1.1" 404 538 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.2; rv:16.0) Gecko/20100101 Firefox/16.0"
+204.140.24.19 - - [12/Mar/2019:16:46:46 +0000] "GET /foo HTTP/1.1" 404 531 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.2; rv:16.0) Gecko/20100101 Firefox/16.0"
+204.140.24.19 - - [12/Mar/2019:16:46:46 +0000] "GET /foo.html HTTP/1.1" 200 428 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.2; rv:16.0) Gecko/20100101 Firefox/16.0"
+172.1.140.12 - - [12/Mar/2019:16:47:08 +0000] "GET / HTTP/1.1" 200 11783 "-" "-"
+172.1.140.12 - - [12/Mar/2019:16:47:08 +0000] "OPTIONS / HTTP/1.1" 200 180 "-" "-"
+172.1.140.12 - - [12/Mar/2019:16:47:08 +0000] "GET /Robots.txt HTTP/1.1" 404 464 "-" "-"
+172.1.140.12 - - [12/Mar/2019:16:47:08 +0000] "GET /SiteMap.xml HTTP/1.1" 404 465 "-" "999.999.999.999"
+172.1.140.12 - - [12/Mar/2019:16:47:08 +0000] "POST / HTTP/1.1" 200 11723 "-" "-"
+164.16.0.1 - - [12/Mar/2019:16:47:19 +0000] "GET /api/v1/products HTTP/1.1" 200 4567 "-" "Mozilla/5.0"
+194.79.50.52 - - [12/Mar/2019:16:47:31 +0000] "GET / HTTP/1.1" 200 3538 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.267.0 Safari/537.36"
+51.87.117.122 - - [12/Mar/2019:16:48:07 +0000] "HEAD / HTTP/1.1" 200 254 "-" "-"
+174.19.123.88 - - [12/Mar/2019:16:49:17 +0000] "GET /Citrix/XenApp/auth/login.aspx?CTX_MessageType=WARNING&CTX_MessageKey=NoUsableClientDetected HTTP/1.1" 404 465 "-" "Mozilla/5.0 (compatible, MSIE 11, Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko"
+102.192.0.3 - - [12/Mar/2019:16:49:20 +0000] "-" 408 0 "-" "-"
+
+# dns logs
+
+21-Mar-2019 10:35:15.074 client 90.220.58.2#61106: query: u-ads.adap.tv IN A + ((8.8.8.8))
+21-Mar-2019 10:35:15.195 client 183.168.79.83#49361: query: apis.google.com IN A + ((8.8.8.8))
+21-Mar-2019 10:35:15.196 client 175.246.119.191#49215: query: clients5.google.com IN A + ((8.8.8.8))
+21-Mar-2019 10:35:15.196 client 26.78.159.34#54854: query: lh5.googleusercontent.com IN A + ((8.8.8.8))
+21-Mar-2019 10:35:15.196 client 162.193.138.11#65019: query: ssl.gstatic.com IN A + ((8.8.8.8))
+21-Mar-2019 10:35:15.207 client 124.185.42.166#49723: query: plus.google.com IN A + ((8.8.8.8))
+21-Mar-2019 10:35:15.208 client 219.21.215.179#50466: query: www.gstatic.com IN A + ((8.8.8.8))
+21-Mar-2019 10:35:15.209 client 107.150.122.39#55137: query: www.youtube.com IN A + ((8.8.8.8))
+21-Mar-2019 10:35:15.367 client 194.98.135.14#62377: query: cdn-static-secure.liverail.com IN A + ((8.8.8.8))
+21-Mar-2019 10:35:15.392 client 59.231.167.155#62484: query: clients1.google.com IN A + ((8.8.8.8))
+21-Mar-2019 10:35:15.951 client 32.250.94.79#62905: query: accounts.google.com IN A + ((8.8.8.8))
+21-Mar-2019 10:35:15.964 client 109.231.13.127#50857: query: googleads.g.doubleclick.net IN A + ((8.8.8.8))
+21-Mar-2019 10:35:15.965 client 207.54.94.116#55427: query: googleads.g.doubleclick.net IN A + ((8.8.8.8))
+21-Mar-2019 10:35:16.186 client 41.194.17.83#60723: query: ping3.teamviewer.com IN A + ((8.8.8.8))
+21-Mar-2019 10:35:16.831 client 46.216.130.89#47075: query: widehat.opensuse.org IN A + ((8.8.8.8))
+21-Mar-2019 10:35:16.834 client 221.51.88.28#45654: query: security.debian.org IN A + ((8.8.8.8))
+21-Mar-2019 10:35:16.834 client 69.71.190.209#45654: query: security.debian.org IN AAAA + ((8.8.8.8))
+21-Mar-2019 10:35:16.836 client 78.188.74.255#31547: query: clients4.google.com IN A + ((8.8.8.8))
+21-Mar-2019 10:35:16.894 client 2.97.1.52#47075: query: widehat.opensuse.org IN AAAA + ((8.8.8.8))
+21-Mar-2019 10:35:16.938 client 43.95.69.19#62967: query: nflnonline.nfl.com IN A + ((8.8.8.8))
+21-Mar-2019 10:35:17.161 client 61.154.167.145#57439: query: neulionms-a.akamaihd.net IN A + ((8.8.8.8))
+21-Mar-2019 10:35:17.171 client 240.174.162.113#51742: query: secure.footprint.net IN A + ((8.8.8.8))
+21-Mar-2019 10:35:17.209 client 136.149.77.206#58051: query: smb.cdnllnwnl.neulion.com IN A + ((8.8.8.8))
+21-Mar-2019 10:35:17.544 client 136.211.213.119#53771: query: crl.microsoft.com IN A + ((8.8.8.8))
+21-Mar-2019 10:35:17.629 client 179.145.60.37#56921: query: crl.microsoft.com IN A + ((8.8.8.8))
+21-Mar-2019 10:35:17.851 client 176.140.117.103#60325: query: nflenterprises.tt.omtrdc.net IN A + ((8.8.8.8))
+21-Mar-2019 10:35:17.874 client 11.45.143.217#10338: query: clients4.google.com IN A + ((8.8.8.8))
+21-Mar-2019 10:35:17.881 client 149.20.25.82#58434: query: d1ivexoxmp59q7.cloudfront.net IN A + ((8.8.8.8))
+21-Mar-2019 10:35:17.956 client 118.176.55.138#49697: query: nfl.sp1.convertro.com IN A + ((8.8.8.8))
+21-Mar-2019 10:35:17.960 client 56.203.104.32#63181: query: dpm.demdex.net IN A + ((8.8.8.8))
+
+# mail logs
+
+Apr 15 11:52:08 mailsrv01 postfix/smtpd[19127]: connect from host.foo.bar[129.232.170.9]
+Apr 15 11:52:08 mailsrv01 postfix/smtpd[19127]: 2C46924AB8: client=host.foo.bar[129.232.170.9]
+Apr 15 11:52:08 mailsrv01 postfix/cleanup[18078]: 2C46924AB8: message-id=<12345.67891.012345.678910@host.foo.bar>
+Apr 15 11:52:08 mailsrv01 postfix/qmgr[18859]: 2C46924AB8: from=<user@host.foo.bar>, size=2126, nrcpt=1 (queue active)
+Apr 15 11:52:08 mailsrv01 postfix/local[18132]: 2C46924AB8: to=<dev@ec2-52-11-28-254.us-east-1.compute.amazonaws.com>, relay=local, delay=0.07, delays=0.07/0/0/0.02, dsn=2.0.0, status=sent (delivered to recipient)
+Apr 15 11:52:08 mailsrv01 postfix/qmgr[18859]: 2C46924AB8: removed
+Apr 15 11:52:08 mailsrv01 postfix/smtpd[19127]: disconnect from host.foo.bar[129.232.170.9]
+
+Apr 24 07:11:06 mailsrv01 postfix/master[11228]: fatal: bind 0.0.0.0 port 25: Address already in use
+Apr 24 07:11:08 mailsrv01 postfix/master[11227]: fatal: daemon initialization failure
+Apr 24 07:11:08 mailsrv01 postfix/postfix-script[11229]: fatal: mail system startup failed
+
+# router logs
+
+Apr 26 10:15:32.123: %SYS-5-CONFIG_I: Configured from console by vty0 (192.168.1.1)
+Apr 26 10:15:35.456: %SEC-6-IPACCESSLOGP: list 101 denied tcp 10.0.0.1(12345) -> 192.168.1.100(80), 1 packet
+Apr 26 10:16:00.789: %LINK-3-UPDOWN: Interface GigabitEthernet0/1, changed state to up
+
+# firewall logs
+
+2019-05-29 10:15:32 Allow 192.168.1.1 10.0.0.7 80 443 TCP
+2019-05-29 10:15:35 Deny 10.0.0.1 192.168.1.102 8080 22 UDP
+2019-05-29 10:16:00 Allow 172.16.0.1 8.8.8.8 53 53 UDP

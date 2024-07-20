@@ -1,0 +1,116 @@
+Delivered-To: alaskansalmon@gmail.com
+Received: by 2002:a92:d30b:0:b0:374:5d09:7317 with SMTP id x11csp771027ila;
+        Thu, 30 May 2024 02:11:56 -0700 (PDT)
+X-Received: by 2002:a05:6512:4848:b0:51f:d989:18f6 with SMTP id 2adb3069b0e04-52b7d41988emr985095e87.13.1717060315515;
+        Thu, 30 May 2024 02:11:55 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1717060315; cv=none;
+        d=google.com; s=arc-20160816;
+        b=xIyqTS46LVCk4oHYaU46WfHolNyfMEwthlArlS63YDN1mlgvS0DSZkoAQrbcRzqdhA
+         HXD3ZLAopX7Vtlr64bQ/1rnJQqf6P4PcVcIudmX6hWLW3CGRnh5vUkssx9TiuWqGOSsK
+         PP1kz+7qwksbYD8Gu9fkREDLRTf1JaW/3umsfXdf4jc5eDhGlZw0QqdVbVIMp5QEKdtZ
+         Hwy5frbEZCd3z0ucgySp1IzYWN87rH3L9jV8XsnVEvbnzH+NtfxAVUT00IiGsLy03Wwj
+         0z18DWRFUiRVnBVirCmHVsMwXbRiBvRQKSat5T5N4Q8br3Jws6D7lpYufbCv/wNNSh3u
+         DXkg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:message-id:date:mime-version:from:dkim-signature;
+        bh=WMZz0z8DJk2WoPRii7dCzS2C9nn47abrZ+zpku7M93w=;
+        fh=jxW8xjGhcWelub/gNjoqEIyWPPBS9wnaRyIcZfiYfsA=;
+        b=liElRU5DY1vFeXgNRjEyrVRHDJ5IHI6BR0gw7YdPPnX3xRQlkl8vqobsZdhbjwdLx5
+         bIQP15lAUYAo+hhxc9InOOhuheaIlywpANt3K/QTge4/URqr+nanPwplengAON8gdOky
+         tLZ2ccnhDYeXgI9N29wO9vsV4ERF/kjINbi163JwO3oDi9Bln23225IWZBKwBaFtWAwt
+         wdFYjUC8lONkNcEDp/lWrzBDWZS0WtzWFloAjYdmDy3O1rqvTnjv/7WRlNPnqUt70l6k
+         fl5Sq+923LHpIgt0LkS38HgzhIl6yXAMifS8ju9NTCCswbMDPERGWuy/TUAC7/UzqmlQ
+         3Grg==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20230601 header.b=MavAgcnX;
+       spf=pass (google.com: domain of bartholomewbelet810@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=bartholomewbelet810@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Return-Path: <bartholomewbelet810@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 2adb3069b0e04-52b7e7a16b3sor233493e87.22.2024.05.30.02.11.55
+        for <alaskansalmon@gmail.com>
+        (Google Transport Security);
+        Thu, 30 May 2024 02:11:55 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bartholomewbelet810@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20230601 header.b=MavAgcnX;
+       spf=pass (google.com: domain of bartholomewbelet810@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=bartholomewbelet810@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1717060314; x=1717665114; dara=google.com;
+        h=to:subject:message-id:date:mime-version:from:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=WMZz0z8DJk2WoPRii7dCzS2C9nn47abrZ+zpku7M93w=;
+        b=MavAgcnXvZXbd8LXCEUjIBy6NY4LJizvUHbhbMyGQejDF0K1O2Y2/+FZ6XM7FMX2Ja
+         uoNtqCDB3lr5x7fKnOrN+0CdPz5G/TpP+9ggAzWwvd9qiWjPP9ZpVc0hmbfgVqcRvomr
+         /gAZGdnVzIXUJnN5/XmTS+lxwUg+nUYuQ8mibB2ooM4zY5pc5iNeZ3hdQrK9MQbmlLHV
+         MZPXPP+Jcb6dPm7BqcPaVptw8D7spiOCBGppimH2dFb7/BbdO0G7X2f9WnNFPY++/6yQ
+         mCiMyi+x1lDuV3tums2Qq3bC8FZc2XDpfOFE7FapnFbYoQdWsChVLkRKV8kbovAJAAnG
+         dxNQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1717060314; x=1717665114;
+        h=to:subject:message-id:date:mime-version:from:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=WMZz0z8DJk2WoPRii7dCzS2C9nn47abrZ+zpku7M93w=;
+        b=ob94u87LBK0MItdbvkyRqv514IZ1xNualAozcEHgnAXA7YXkxi7vlS6gmnGkdVZEni
+         KcURpGMdq1ANmIu+E2fOa2g01bty3tr8uQgNHv9sOK5GtIxpCY07KmOGK76bRnzcyyPB
+         lhuv8irmE2UJejErGrHWoHhSamBDW5EwmgFcuvs8uSVSuqTAtXJ/72hiUnGub05mOcs5
+         dDpI9jnDhNboeHPW3nTr9A3SxcGMGdpDS5Si+c6VyFK+AYef5LNXVelV2OB4UOwbDNk3
+         lSvoUbEankql6SE38DgPM8vf4uMZWvGGDa+YQZa88K9L0iB/JU2R75FJUhcVgjJgm1AV
+         V3Gw==
+X-Gm-Message-State: AOJu0YzAeqKKWqXv4DlD15Yim5Ok+NQUZxU4v88qlWKvg0HyDdxKOvSY zu6zeNSEvjsKIMbP2da/MI8l2IQYmmoY/WV03f4z9WKFrDmWUqft6zSMVcYpHrHFqEaF9TSR6ju p4zbJQxjAJyiz59oiURJiNMg9J+88TezpM1I=
+X-Google-Smtp-Source: AGHT+IFrl8Mz4bvKS2/PfMhSC9UhzHmSRjMGLdbq0WuVDOR8ALKZ4diH54g4no2FyEftXviBlsVM+PzDMH3d/V+cNOU=
+X-Received: by 2002:a19:8c55:0:b0:52a:6ea9:237 with SMTP id 2adb3069b0e04-52b7d490cf1mr1182895e87.62.1717060313795; Thu, 30 May 2024 02:11:53 -0700 (PDT)
+Received: from 397823805256 named unknown by gmailapi.google.com with HTTPREST; Thu, 30 May 2024 02:11:52 -0700
+X-TempHeader: R@quibeb722039-d4a5-4119-a9f1-9bec822531b0
+From: "Dorsey B. Deyette" <bartholomewbelet810@gmail.com>
+MIME-Version: 1.0
+Date: Thu, 30 May 2024 02:11:52 -0700
+Message-ID: <CAHiZQYdM3RfvxO2m-qeEfD9A6aCaM-0Z1v6W-6pc85LKQm4jKQ@mail.gmail.com>
+Subject: Confirmation of your order 38796798121360
+To: alaskansalmon@gmail.com
+Content-Type: multipart/mixed; boundary="0000000000000fed220619a84275"
+
+--0000000000000fed220619a84275
+Content-Type: multipart/alternative; boundary="0000000000000fed200619a84273"
+
+--0000000000000fed200619a84273
+Content-Type: text/plain; charset="UTF-8"
+
+Dated 30 May 2024
+We are pleased to announce that the payment for our *30 May 2024* invoice
+has been completed and all necessary steps have been finalized. Please find
+the payment receipt for *G53LX31W5CR/INVOICE/2024/4672957/5LU1KW34YQC*
+attached. Should you require anything else, please let us know. We wish you
+successful trades. Do not hesitate to contact us with any questions. Thank
+you for your quick payment.
+
+
+
+*Dorsey B. Deyette53bd2b9c-4a0e-4449-8f5d-a83094f76973*
+
+--0000000000000fed200619a84273
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<h3>Dated 30 May 2024</h3><div>We are pleased to announce that the payment =
+for our <strong>30 May 2024</strong> invoice has been completed and all nec=
+essary steps have been finalized. Please find the payment receipt for <stro=
+ng>G53LX31W5CR/INVOICE/2024/4672957/5LU1KW34YQC</strong> attached. Should y=
+ou require anything else, please let us know. We wish you successful trades=
+. Do not hesitate to contact us with any questions. Thank you for your quic=
+k payment.</div><p><br></p><div><strong><em>Dorsey B. Deyette<br>53bd2b9c-4=
+a0e-4449-8f5d-a83094f76973</em></strong></div><p></p><p></p><div><=
+/div><div></div>
+
+--0000000000000fed200619a84273--
+--0000000000000fed220619a84275
+Content-Type: application/octet-stream; name="VU40WAYXHBOZAQ0H7TV.pdf"
+Content-Disposition: attachment; filename="VU40WAYXHBOZAQ0H7TV.pdf"
+Content-Transfer-Encoding: base64
+Content-ID: <a159efe3-c2dd-4c78-bb32-9ff8bec80596>
+X-Attachment-Id: 14212bce839efea5_0.1
+
+
+--0000000000000fed220619a84275--

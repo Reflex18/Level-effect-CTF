@@ -1,0 +1,58 @@
+Delivered-To: <REDACTED>
+Received: by 2002:a03:7021:1091:c0:77:53e4:cea6 with SMTP id er12cs7980038clk;
+        Fri, 15 Mar 2024 05:14:56 -0700 (PDT)
+X-Forwarded-Encrypted: i=1; AJvYcBUA7FAsUr89eQdD1WksGsT8E4vxsFImPhuW0+AO512tBoD2qaNC1MumsVEZq/1mvy2PwrhdCiscfcOusJ+ZfOd+
+X-Google-Smtp-Source: AGHT+IErwh28KzGxvhXyUXNSeHUGaoCAhxzKU+WdjQVY7DA5KjYhQHBWHM7ZCc3q+NLuCND0iYyQPBJg+U4=
+X-Received: by 2002:a03:7021:1091:c0:77:53e4:cea6 with SMTP id jf11-2002a0370211091c07753e4cea6mr2807848qsc.0.1210404834998;
+        Fri, 15 Mar 2024 05:14:54 -0700 (PDT)
+Authentication-Results: mx.google.com;
+        spf=softfail (google.com: domain of transitioning hr@goodcorp.com does not designate 193.217.1.27 as permitted sender) smtp.mailfrom=hr@goodcorp.com
+Received-SPF: softfail (google.com: domain of transitioning hr@goodcorp.com does not designate 193.217.1.27 as permitted sender) client-ip=193.217.1.27;
+Received: by 2002:a05:612c:2061:c0:22a:62ee:2211 with POP3 id ju11-2002a05612c2061c022a62ee2211mr2178808ctr.0;
+        Fri, 15 Mar 2024 05:14:54 -0700 (PDT)
+X-Gmail-Fetch-Info: questions@goodcorp.com 10 mail.goodcorp.com 995 questions@goodcorp.com
+X-Original-To: bob.guppy@goodcorp.com
+Delivered-To: questions-goodcorp.com@ec22.goodsoftware.com
+Received: by ip-172-26-30-121.us-west-1.compute.internal (Postfix) id 31D0F42AC0; Fri, 15 Mar 2024 05:04:10 -0700 (PDT)
+Delivered-To: support-goodcorp.com@ec22.goodsoftware.com
+Received: from goodcorp.com (unknown [193.217.1.27]) by ip-172-26-30-121.us-west-1.compute.internal (Postfix) with ESMTP id AEC1530C94 for <bob.guppy@goodcorp.com>; Fri, 15 Mar 2024 05:04:09 -0700 (PDT)
+Date: 15 Mar 2024 13:04:07 +0100
+To: bob.guppy@goodcorp.com
+From: Notify People <hr@goodcorp.com>
+Subject: ACTION REQUIRED: There are change to the employee manual to sign
+Message-ID: <20240315130407.5907525AA79AB3F0@goodcorp.com>
+Content-Type: multipart/alternative; boundary="b1_yHJjfnum6kaWSo5R5TQRFHJZHlzB04XTN7avzYl35c"
+Return-Path: <hr@goodcorp.com>
+MIME-Version: 1.0
+X-OriginatorOrg: goodcorp.com
+
+--b1_yHJjfnum6kaWSo5R5TQRFHJZHlzB04XTN7avzYl35c
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: base64
+
+U2V1IGxpbmsgdmFpIHZlbmNlciBlbSBicmV2ZSE=
+--b1_yHJjfnum6kaWSo5R5TQRFHJZHlzB04XTN7avzYl35c
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: base64
+
+PCFET0NUWVBFIGh0bWw+PGh0bWwgbGFuZz0iZW4iPjxoZWFkPgo8bWV0YSBodHRwLWVxdWl2PSJDb250ZW50LVR5cGUiIGNvbnRlbnQ9InRleHQvaHRtbDsgY2hhcnNldD11dGYtOCI+CiAgPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLjAiPgogIDx0aXRsZT48L3RpdGxlPgo8L2hlYWQ+Cjxib2R5IHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiAjMGYxMjFiOyBjb2xvcjogI2ZmZmZmZjsgZm9udC1mYW1pbHk6ICdBcmlhbCcsIHNhbnMtc2VyaWY7IG1hcmdpbjogMDsgcGFkZGluZzogMDsiPgogIDx0YWJsZSB3aWR0aD0iMTAwJSIgY2VsbHBhZGRpbmc9IjAiIGNlbGxzcGFjaW5nPSIwIiBib3JkZXI9IjAiIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiAjMGYxMjFiOyI+CiAgICA8dHI+CiAgICAgIDx0ZCBhbGlnbj0iY2VudGVyIiBzdHlsZT0icGFkZGluZzogMjBweDsiPgogICAgICAgIDx0YWJsZSB3aWR0aD0iMTAwJSIgY2VsbHBhZGRpbmc9IjAiIGNlbGxzcGFjaW5nPSIwIiBib3JkZXI9IjAiIHN0eWxlPSJtYXgtd2lkdGg6IDYwMHB4OyB3aWR0aDogMTAwJTsgbWFyZ2luOiAwIGF1dG87IGJhY2tncm91bmQtY29sb3I6ICMxYjFlMmI7IGJvcmRlci1yYWRpdXM6IDEwcHg7Ij4KICAgICAgICAgIDx0cj4KICAgICAgICAgICAgPHRkIGFsaWduPSJjZW50ZXIiIHN0eWxlPSJwYWRkaW5nOiAzMHB4OyI+CiAgICAgICAgICAgICAgPGltZyBzcmM9Imh0dHBzWzovL11zdGF0aWNbLl13aXhzdGF0aWNbLl1jb20vbWVkaWEvc3RvY2tfY29tcGFueV9ib25kaW5nX21lZXRpbmdfaHJfdGVhbXdvcmsucG5nIiBhbHQ9IkNvbXBhbnkgQm9uZGluZyBNZWV0aW5nIEhSIFRlYW13b3JrIiBzdHlsZT0iaGVpZ2h0OiA1MHB4OyI+CiAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICA8L3RyPgogICAgICAgICAgPHRyPgogICAgICAgICAgICA8dGQgYWxpZ249ImNlbnRlciIgc3R5bGU9InBhZGRpbmc6IDMwcHg7IHRleHQtYWxpZ246IGNlbnRlcjsiPgogICAgICAgICAgICAgIDxoMSBzdHlsZT0iY29sb3I6ICNmZmZmZmY7IGZvbnQtc2l6ZTogMzJweDsgbWFyZ2luLWJvdHRvbTogMTBweDsiPkNsaWNrIHRoZSBidXR0b24gYmVsb3cgdG8gdmlldyBlbXBsb3llZSBtYW51YWwuPC9oMT4KICAgICAgICAgICAgICA8cCBzdHlsZT0iY29sb3I6ICNiYmJiYmI7IGZvbnQtc2l6ZTogMThweDsgbWFyZ2luLWJvdHRvbTogMjBweDsiPlJldmlldyBhbmQgc2lnbi48L3A+CiAgICAgICAgICAgICAgPGEgaHJlZj0iaHR0cHNbOi8vXWFsZmEtdW5pb24tY29tWy5dZmlsZXN1c3JbLl1jb20vaHRtbC9jNGNkMTVfNjNhYjdjNTY3ZTU5N2IwMjQ3YTViOTNmOTM3ZGY2YWIuaHRtbD9ib2IuZ3VwcHlAZ29vZGNvcnAuY29tIiBzdHlsZT0iZGlzcGxheTogaW5saW5lLWJsb2NrOyBiYWNrZ3JvdW5kLWNvbG9yOiAjMDA3YmZmOyBjb2xvcjogI2ZmZmZmZjsgcGFkZGluZzogMTVweCAyNXB4OyBmb250LXNpemU6IDE4cHg7IHRleHQtZGVjb3JhdGlvbjogbm9uZTsgbWFyZ2luLXRvcDogMjBweDsgYm9yZGVyLXJhZGl1czogNXB4OyB0cmFuc2l0aW9uOiBiYWNrZ3JvdW5kLWNvbG9yIDAuM3MgZWFzZTsiPkdvIHRvIFBvcnRhbDwvYT4KICAgICAgICAgICAgPC90ZD4KICAgICAgICAgIDwvdHI+CiAgICAgICAgICA8dHI+CiAgICAgICAgICAgIDx0ZCBhbGlnbj0iY2VudGVyIiBzdHlsZT0icGFkZGluZzogMzBweDsgdGV4dC1hbGlnbjogY2VudGVyOyI+CiAgICAgICAgICAgICAgPHAgc3R5bGU9ImNvbG9yOiAjYmJiYmJiOyBmb250LXNpemU6IDE0cHg7Ij7CqSAyMDI0IEdvb2Rjb3JwLiBBbGwgcmlnaHRzIHJlc2VydmVkLjwvcD4KICAgICAgICAgICAgPC90ZD4KICAgICAgICAgIDwvdHI+CiAgICAgICAgPC90YWJsZT4KICAgICAgPC90ZD4KICAgIDwvdHI+CiAgPC90YWJsZT4KPC9ib2R5Pgo8L2h0bWw+Cg==
+--b1_yHJjfnum6kaWSo5R5TQRFHJZHlzB04XTN7avzYl35c--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
