@@ -97,7 +97,21 @@ I had a great time with this CTF and managed to hit top 100.
 
 - Perfect match
 
+Test
 
+# CTF Writeup
+
+## Cyber-defence-ctf
+- [CTI](Cyber-defence-ctf/CTI/)
+- [Crypto](Cyber-defence-ctf/Crypto/)
+- [Email Security](Cyber-defence-ctf/Email Security/)
+- [Forensics](Cyber-defence-ctf/Forensics/)
+- [Incident Response](Cyber-defence-ctf/Incident Response/)
+- [Log Analysis](Cyber-defence-ctf/Log Analysis/)
+- [Networking](Cyber-defence-ctf/Networking/)
+- [OSINT](Cyber-defence-ctf/OSINT/)
+- [Reversing](Cyber-defence-ctf/Reversing/)
+- [Scripting](Cyber-defence-ctf/Scripting/)
 
 
 
