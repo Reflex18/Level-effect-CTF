@@ -39,7 +39,7 @@ I had a great time with this CTF and managed to hit the top 100.
 - [inspector](OSINT/Inspector/)
 - [roe](OSINT/roe/)
 - [shameless plug](OSINT/shameless-plug/)
-- [spawl 2 part 1](OSINT/spawl%202%20part%201 - The shapeshifter Enters/)
+- [spawl 2 part 1](OSINT/spawl%202%20part%201%20%20The%20shapeshifter%20Enters/)
 - [spawl 1](OSINT/the-sprawl-1/)
 - [spawl 2](OSINT/the-spawl-2/)
 - [your opinion matters](OSINT/your-opinion-matters/)
