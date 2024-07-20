@@ -13,4 +13,4 @@ I just pasted the entire thing in chat gpt and got the answer right away
 Volt Typhoon
 
 Really was that simple.
-![Chat%20gpt%20APT%201.png](Chat%20gpt%20APT%20201.png)
+![Chat%20gpt%20APT%201.png](Chat%20gpt%20APT%20.png)
