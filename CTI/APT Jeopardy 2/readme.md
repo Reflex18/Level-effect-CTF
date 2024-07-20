@@ -13,5 +13,5 @@ There are more pressing matters than attribution here, but for the purposes of t
 Once again used chat gpt….
 
 Answer = fancy bear
-![[Chat gpt APT 2.png]]
+![[Chat%20gpt%20APT%202.png]]
 
