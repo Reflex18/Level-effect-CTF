@@ -58,7 +58,7 @@ I had a great time with this CTF and managed to hit the top 100.
 - [double take](Forensics/double-take/)
 - [haystack](Forensics/haystack/)
 - [magic repairman](Forensics/magic-repairman/)
-- [MOTW](Forensics/MOTW/)
+- [MOTW](Forensics/motw/)
 - [Puzzle pieces](Forensics/Puzzle%20pieces/)
 - [thats epoch](Forensics/thats-epoch/)
 - [The spawl 3](Forensics/The-spawl-3/)
