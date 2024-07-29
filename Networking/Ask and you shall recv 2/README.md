@@ -22,7 +22,7 @@ Then using the syntax i tried to login to the ssh server
 
 ssh -i p2.private.key Ladybird@0.cloud.chals.io -p 21986
 
-![/files/Too%20open.png](Too%20open.png)
+![Too%20open.png](/files/Too%20open.png)
 
 To fix this issue i had to make the private key read only.
 
